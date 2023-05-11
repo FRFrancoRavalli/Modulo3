@@ -5,11 +5,11 @@ sumaTres(5);
 
 //Primera manera
 function sumaTres(x) {
-    return x + 3;
+    return sumaTres + 3;
 }
 
 //Segunda Manera
-Var sumaTres = function (x) {
+var sumaTres = function (x) {
     return x + 3
 };
 

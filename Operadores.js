@@ -17,4 +17,15 @@ console.log(95 % 4);
 console.log(3 + 5 * 2 - 8);
 console.log((3 + 5) * 2 - 8);
 
-console.log("hola " + "camilo")
+//Operadores con Variables
+console.log("Hola " + "Camilo")
+
+var saludo = "Hola "
+var Nombre = "Camilo"
+
+console.log(saludo + "Camilo")
+console.log(saludo + Nombre)
+var SaludoCompleto = "Hola, cómo estas? Camilo"
+
+console.log(SaludoCompleto)
+
