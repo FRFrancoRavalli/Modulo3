@@ -36,3 +36,27 @@ sumaCuatro(2)
 function sumaCinco() {
     return sumaCuatro(5) + 5
 }
+
+function sonIguales(x, y) {
+    console.log(x === y)
+}
+
+sonIguales()
+
+//CONTROL DE FLUJO
+function viajecito(lugarcito) {
+    if (lugarcito==="Brasil") {
+        console.log ("Gire a la IZQUIERDA")
+        console.log ("Disfrute manito")
+    }else if (lugarcito==="Argentina") {
+        console.log("Gire a la DERECHA")
+        console.log("Disfrutá boludo")
+    } else [
+        console.log("NOS PERDIMOS")
+    ]
+}
+
+viajecito("Argentina")
+console.log("-----------------")
+viajecito("Brasil")
+viajecito("Catamarca")
